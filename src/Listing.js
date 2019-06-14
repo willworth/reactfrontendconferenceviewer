@@ -1,16 +1,28 @@
-import React from "react";
+import React, { Component } from "react";
+import "./Listing.css";
 
-function Listing(props) {
-  return (
-    <div className="Listing">
-      <h3>{props.title}</h3>
-      <p>
-        {" "}
-        <em>{props.byline}</em>
-      </p>
-      <p>{props.location}</p>
-      <a href={props.url}>Website</a>
-    </div>
-  );
+class Listing extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      onshortlist: this.props.onshortlist
+    };
+  }
+
+  render() {
+    return (
+      <div className="Listing">
+        <h3>{this.props.title}</h3>
+        <p>
+          {" "}
+          <em>{this.props.byline}</em>
+        </p>
+        <p>{this.props.location}</p>
+        <a href={this.props.url}>Website</a>
+
+        <button>button</button>
+      </div>
+    );
+  }
 }
 export default Listing;
