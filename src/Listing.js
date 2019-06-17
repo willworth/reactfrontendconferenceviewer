@@ -5,8 +5,13 @@ class Listing extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      onshortlist: this.props.onshortlist
+      onshortlist: this.props.isShortlisted
     };
+    this.handleToggle = this.handleToggle.bind(this);
+  }
+
+  handleToggle(e) {
+    this.props.toggler(this.props.id);
   }
 
   render() {
@@ -18,9 +23,11 @@ class Listing extends Component {
           <em>{this.props.byline}</em>
         </p>
         <p>{this.props.location}</p>
-        <a href={this.props.url}>Website</a>
-
-        <button>button</button>
+        <p>
+          {" "}
+          <a href={this.props.url}>Website</a>
+        </p>
+        <button onClick={this.handleToggle}>button</button>
       </div>
     );
   }

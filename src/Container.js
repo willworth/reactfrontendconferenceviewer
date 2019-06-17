@@ -16,30 +16,72 @@ function addConfDetails(obj) {
 
 const alteredConfs = confsJson.conferences.map(addConfDetails);
 
-export default class Container extends Component {
+class Container extends Component {
   constructor(props) {
     super(props);
     this.state = {
       confs: alteredConfs
     };
+    this.toggleShortlist = this.toggleShortlist.bind(this);
+    // this.getShortlistedConfs = this.getShortlistedConfs.bind(this);
   }
 
+  toggleShortlist(id) {
+    const updatedShortlist = this.state.confs.map(c => {
+      if (c.id === id) {
+        return { ...c, isShortlisted: !c.isShortlisted };
+      } else {
+        return c;
+      }
+    });
+    this.setState({
+      confs: updatedShortlist
+    });
+  }
+
+  // getShortlistedConfs() {
+  //   const shortlistedConfs = this.state.confs.filter(function(conf) {
+  //     return conf.isShortlisted;
+  //   });
+  // }
+
   render() {
+    let newShortlist = this.state.confs.filter(conf => conf.isShortlisted);
     return (
       <div className="Container">
-        {/* <p> conf title is + {this.state.confs[0].title}</p> */}
         <Heading />
-        {this.state.confs.map(c => (
-          <Listing
-            key={c.id}
-            title={c.title}
-            location={c.location}
-            url={c.url}
-            byline={c.byline}
-            onshortlist={c.onshortlist}
-          />
-        ))}
+        <div className="Listings">
+          {this.state.confs.map(c => (
+            <Listing
+              key={c.id}
+              id={c.id}
+              title={c.title}
+              location={c.location}
+              url={c.url}
+              byline={c.byline}
+              onshortlist={c.isShortlisted}
+              toggler={this.toggleShortlist}
+            />
+          ))}
+        </div>
+        <div className="Shortlist">
+          <h1>SHORTLIST</h1>
+          {newShortlist.map(c => (
+            <Listing
+              key={c.id}
+              id={c.id}
+              title={c.title}
+              location={c.location}
+              url={c.url}
+              byline={c.byline}
+              onshortlist={c.isShortlisted}
+              toggler={this.toggleShortlist}
+            />
+          ))}
+        </div>
       </div>
     );
   }
 }
+
+export default Container;
