@@ -3,7 +3,7 @@ import confsJson from "./confs.json";
 import Listing from "./Listing";
 import Heading from "./Heading";
 import uuid from "uuid/v4";
-
+import "./styles/Container.css";
 /*
 These functions add a unique id and a boolean for 
 the shortlist to each conference being imported from the json.
