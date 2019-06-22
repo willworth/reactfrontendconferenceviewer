@@ -27,7 +27,11 @@ class Listing extends Component {
           {" "}
           <a href={this.props.url}>Website</a>
         </p>
-        <button onClick={this.handleToggle}>button</button>
+        <button onClick={this.handleToggle}>
+          {this.props.onshortlist
+            ? "Remove from shortlist"
+            : "Add to shortlist"}
+        </button>
       </div>
     );
   }

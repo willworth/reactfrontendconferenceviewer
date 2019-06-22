@@ -4,6 +4,7 @@ import Listing from "./Listing";
 import Heading from "./Heading";
 import uuid from "uuid/v4";
 import "./styles/Container.css";
+import "./styles/Shortlist.css";
 /*
 These functions add a unique id and a boolean for 
 the shortlist to each conference being imported from the json.
@@ -47,10 +48,12 @@ class Container extends Component {
 
   render() {
     let newShortlist = this.state.confs.filter(conf => conf.isShortlisted);
+
     return (
       <div className="Container">
         <Heading />
         <div className="Listings">
+          <h1 className="Heading">Upcoming confs:</h1>
           {this.state.confs.map(c => (
             <Listing
               key={c.id}
@@ -65,7 +68,7 @@ class Container extends Component {
           ))}
         </div>
         <div className="Shortlist">
-          <h1>SHORTLIST</h1>
+          <h1 className="Heading">Your shortlist:</h1>
           {newShortlist.map(c => (
             <Listing
               key={c.id}
