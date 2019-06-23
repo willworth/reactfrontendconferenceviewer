@@ -24,6 +24,7 @@ class Listing extends Component {
           {" "}
           <em>{this.props.byline}</em>
         </p>
+        <p className="date">{this.props.date}</p>
         <p>{this.props.location}</p>
         <p>
           {" "}

@@ -60,6 +60,7 @@ class Container extends Component {
               id={c.id}
               title={c.title}
               location={c.location}
+              date={c.date.slice(0, 16)}
               url={c.url}
               byline={c.byline}
               onshortlist={c.isShortlisted}
@@ -75,6 +76,7 @@ class Container extends Component {
               id={c.id}
               title={c.title}
               location={c.location}
+              date={c.date.slice(0, 16)}
               url={c.url}
               byline={c.byline}
               onshortlist={c.isShortlisted}
