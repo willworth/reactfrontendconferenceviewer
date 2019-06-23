@@ -51,9 +51,9 @@ class Container extends Component {
 
     return (
       <div className="Container">
-        <Heading />
+        <Heading className="Intro" />
         <div className="Listings">
-          <h1 className="Heading">Upcoming confs:</h1>
+          <h1 className="Intro">Upcoming confs:</h1>
           {this.state.confs.map(c => (
             <Listing
               key={c.id}
@@ -68,7 +68,7 @@ class Container extends Component {
           ))}
         </div>
         <div className="Shortlist">
-          <h1 className="Heading">Your shortlist:</h1>
+          <h1 className="Intro">Your shortlist:</h1>
           {newShortlist.map(c => (
             <Listing
               key={c.id}

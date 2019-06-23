@@ -16,7 +16,9 @@ class Listing extends Component {
 
   render() {
     return (
-      <div className="Listing">
+      <div
+        className={this.props.onshortlist ? "Listing Shortlisted" : "Listing"}
+      >
         <h3>{this.props.title}</h3>
         <p>
           {" "}

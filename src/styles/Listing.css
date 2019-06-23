@@ -1,9 +1,28 @@
 .Listing {
   border: solid teal 2px;
   border-radius: 15px;
-  max-width: 500px;
+  max-width: 700px;
+  min-width: 33vw;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   flex: 1;
   margin: 0 auto;
+  transition: 0.4s;
+}
+
+.Listing:hover {
+  border-color: gold;
+  color: white;
+  box-shadow: inset 0 0 0 0.2em gold;
+}
+.Shortlisted {
+  background-color: black;
+}
+
+@media screen and (min-width: 1199px) {
+  .Listing {
+    font-size: 1.4em;
+    padding: 7px;
+    transition: 0.4s;
+  }
 }

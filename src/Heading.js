@@ -1,9 +1,9 @@
 import React from "react";
-import "./styles/Heading.css";
-function Heading() {
+import "./styles/Intro.css";
+function Intro() {
   return (
     <div>
-      <h1 className="Heading">React frontend conference viewer</h1>
+      <h1 className="Intro">Frontend conf viewer</h1>
       <p>This app is a list of front end developer conferences. </p>
       <p>
         I built it using data from{" "}
@@ -12,4 +12,4 @@ function Heading() {
     </div>
   );
 }
-export default Heading;
+export default Intro;
