@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./styles/Intro.css";
 import EnglishIntro from "./EnglishIntro";
 import SpanishIntro from "./SpanishIntro";
+import "./styles/Listing.css";
 
 class Intro extends Component {
   constructor(props) {
@@ -27,7 +28,13 @@ class Intro extends Component {
         <button onClick={this.toggleLang}>
           {this.state.english ? "Haz click para español!" : "Show in English"}
         </button>
-        <p>{this.state.english ? <EnglishIntro /> : <SpanishIntro />}</p>
+        <p>
+          {this.state.english ? (
+            <EnglishIntro className="Listing" />
+          ) : (
+            <SpanishIntro />
+          )}
+        </p>
       </div>
     );
   }

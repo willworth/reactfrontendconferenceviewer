@@ -19,3 +19,9 @@ a {
   color: #d5a021;
   text-decoration: none;
 }
+
+button {
+  border-radius: 4px;
+  padding: 2px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}

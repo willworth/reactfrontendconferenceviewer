@@ -9,25 +9,24 @@
   flex: 1;
   background-color: #013243;
   color: #2c82c9;
-  max-width: 700px;
   min-width: 33vw;
-  height: 5vh;
+  /* height: 5vh; */
   font-size: 0.7rem;
-  padding: 5px;
+  margin-bottom: 5px;
 }
-.Title {
+
+.titleBox > h1 {
+  padding: 10px;
 }
 
 @media screen and (min-width: 303px) {
   .titleBox {
-    height: 8vh;
     font-size: 0.7rem;
   }
 }
 
 @media screen and (min-width: 690px) {
   .titleBox {
-    height: 7vh;
     font-size: 1rem;
   }
 }
@@ -35,6 +34,5 @@
 @media screen and (min-width: 1199px) {
   .titleBox {
     font-size: 1.8rem;
-    height: 9vh;
   }
 }
