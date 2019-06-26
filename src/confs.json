@@ -2,32 +2,6 @@
   "source": "https://conferences.css-tricks.com",
   "conferences": [
     {
-      "title": "enterJS",
-      "date": "Tue Jun 25 2019 00:00:00 GMT+0000 (UTC)",
-      "endDate": "Fri Jun 28 2019 00:00:00 GMT+0000 (UTC)",
-      "url": "https://www.enterjs.de/",
-      "location": "Darmstadt, Germany",
-      "byline": "The conference for Enterprise JavaScript",
-      "cocUrl": "https://www.enterjs.de/diversity#code-of-conduct-english"
-    },
-    {
-      "title": "Smashing Conference",
-      "date": "Tue Jun 25 2019 00:00:00 GMT+0000 (UTC)",
-      "endDate": "Wed Jun 26 2019 00:00:00 GMT+0000 (UTC)",
-      "url": "https://smashingconf.com/toronto-2019",
-      "location": "Toronto, Canada",
-      "byline": "A friendly, inclusive event which is focused on real-world problems and solutions.",
-      "cocUrl": "https://smashingconf.com/codeofconduct"
-    },
-    {
-      "title": "Patterns Day",
-      "date": "Fri Jun 28 2019 00:00:00 GMT+0000 (UTC)",
-      "url": "https://patternsday.com",
-      "location": "Brighton, United Kingdom",
-      "byline": "A one-day event for designers and developers focused on design systems, pattern libraries, style guides, and components.",
-      "cocUrl": "https://patternsday.com/#codeofconduct"
-    },
-    {
       "title": "JAMstack_conf_ldn",
       "date": "Tue Jul 09 2019 08:00:00 GMT+0000 (UTC)",
       "endDate": "Wed Jul 10 2019 16:00:00 GMT+0000 (UTC)",
@@ -231,24 +205,6 @@
       "cocUrl": "http://nordicjs.com/code-of-conduct/"
     },
     {
-      "title": "Central Wisconsin IT Conference",
-      "date": "Sat Oct 12 2019 00:00:00 GMT+0000 (UTC)",
-      "endDate": "Sat Oct 12 2019 00:00:00 GMT+0000 (UTC)",
-      "url": "https://cwitc.org/",
-      "location": "Stevens Point, Wisconsin, USA",
-      "byline": "A one-day conference designed to bring together IT professionals from the Midwest.",
-      "cocUrl": "https://cwitc.org/code-of-conduct"
-    },
-    {
-      "title": "HighEdWeb Technical Academy",
-      "date": "Sat Oct 12 2019 00:00:00 GMT+0000 (UTC)",
-      "endDate": "Sun Oct 13 2019 00:00:00 GMT+0000 (UTC)",
-      "url": "https://technical.highedweb.org/",
-      "location": "Milwaukee, Wisconsin",
-      "byline": "Front-end technologies, best practices, and accessibility",
-      "cocUrl": "https://www.highedweb.org/about/code-of-conduct/"
-    },
-    {
       "title": "Smashing Conference",
       "date": "Tue Oct 15 2019 00:00:00 GMT+0000 (UTC)",
       "endDate": "Wed Oct 16 2019 00:00:00 GMT+0000 (UTC)",
@@ -274,15 +230,6 @@
       "location": "London, UK",
       "byline": "Conference brought to you by creators of React Amsterdam and FocusReactive experts.",
       "cocUrl": "https://confcodeofconduct.com/"
-    },
-    {
-      "title": "Script&#39;19",
-      "date": "Fri Oct 25 2019 00:00:00 GMT+0000 (UTC)",
-      "endDate": "Fri Oct 25 2019 00:00:00 GMT+0000 (UTC)",
-      "url": "https://scriptconf.org",
-      "location": "Linz, Austria",
-      "byline": "The feelgood JavaScript conference",
-      "cocUrl": "https://scriptconf.org/code-of-conduct"
     },
     {
       "title": "An Event Apart",
@@ -372,15 +319,6 @@
       "location": "San Francisco, California",
       "byline": "Three days of design, code, and content",
       "cocUrl": "https://aneventapart.com/registration-information#code-of-conduct"
-    },
-    {
-      "title": "React Finland",
-      "date": "Tue May 12 2020 00:00:00 GMT+0000 (UTC)",
-      "endDate": "Fri May 15 2020 00:00:00 GMT+0000 (UTC)",
-      "url": "https://react-finland.fi",
-      "location": "Helsinki, Finland",
-      "byline": "Learn More about React, Explore Finland.",
-      "cocUrl": "http://berlincodeofconduct.org"
     }
   ]
 }

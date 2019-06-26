@@ -2,8 +2,10 @@ import React from "react";
 import "./styles/Intro.css";
 function Intro() {
   return (
-    <div>
-      <h1 className="Intro">Frontend conf viewer</h1>
+    <div className="Intro">
+      <div className="titleBox">
+        <h1>Frontend conf viewer</h1>
+      </div>
       <p>This app is a list of front end developer conferences. </p>
       <p>
         I built it using data from{" "}
