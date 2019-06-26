@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import confsJson from "./confs.json";
 import Listing from "./Listing";
-import Heading from "./Heading";
+import Intro from "./Intro";
 import uuid from "uuid/v4";
 import "./styles/Container.css";
 import "./styles/Shortlist.css";
@@ -51,7 +51,7 @@ class Container extends Component {
 
     return (
       <div className="Container">
-        <Heading className="Intro" />
+        <Intro className="Intro" />
         <div className="Listings">
           <h1 className="Intro">Upcoming confs:</h1>
           {this.state.confs.map(c => (

@@ -2,78 +2,6 @@
   "source": "https://conferences.css-tricks.com",
   "conferences": [
     {
-      "title": "DEVit",
-      "date": "Sun Jun 09 2019 14:29:31 GMT+0000 (UTC)",
-      "endDate": "Mon Jun 10 2019 14:29:31 GMT+0000 (UTC)",
-      "url": "https://devitconf.org/",
-      "location": "Thessaloniki, Greece",
-      "byline": "Frontend, Backend, DevOps and Mobile",
-      "cocUrl": "https://devitconf.org/code-of-conduct"
-    },
-    {
-      "title": "Accessible UI Patterns",
-      "date": "Mon Jun 10 2019 00:00:00 GMT+0000 (UTC)",
-      "endDate": "Mon Jun 10 2019 00:00:00 GMT+0000 (UTC)",
-      "url": "https://academy.frozenrockets.nl/workshop/accessible-ui-patterns-10-june",
-      "location": "Den Haag, NL",
-      "byline": "A one day workshop on Web Accessibility by Sara Soueidan.",
-      "cocUrl": "https://academy.frozenrockets.nl/code-of-conduct"
-    },
-    {
-      "title": "CSS Day",
-      "date": "Thu Jun 13 2019 00:00:00 GMT+0000 (UTC)",
-      "endDate": "Fri Jun 14 2019 00:00:00 GMT+0000 (UTC)",
-      "url": "https://cssday.nl/2019",
-      "location": "Amsterdam, Netherlands",
-      "byline": "Advanced CSS conference & UI Special",
-      "cocUrl": "https://cssday.nl/2019/contact#code-of-conduct"
-    },
-    {
-      "title": "JSConf.Asia",
-      "date": "Fri Jun 14 2019 00:00:00 GMT+0000 (UTC)",
-      "endDate": "Sun Jun 16 2019 00:00:00 GMT+0000 (UTC)",
-      "url": "https://2019.jsconf.asia/",
-      "location": "Singapore",
-      "byline": "Southeast Asia's largest web developer conference",
-      "cocUrl": "https://jsconf.com/codeofconduct.html"
-    },
-    {
-      "title": "Web Directions Code",
-      "date": "Thu Jun 20 2019 00:00:00 GMT+0000 (UTC)",
-      "endDate": "Fri Jun 21 2019 00:00:00 GMT+0000 (UTC)",
-      "url": "https://webdirections.org/code",
-      "location": "Melbourne, Australia",
-      "byline": "Australia's conference for JavaScript Developers and Front End Engineers.",
-      "cocUrl": "https://www.webdirections.org/web-directions-event-code-of-conduct"
-    },
-    {
-      "title": "WordCamp Europe",
-      "date": "Thu Jun 20 2019 00:00:00 GMT+0000 (UTC)",
-      "endDate": "Sat Jun 22 2019 00:00:00 GMT+0000 (UTC)",
-      "url": "https://2019.europe.wordcamp.org/",
-      "location": "Berlin, Germany",
-      "byline": "WCEU is the largest WordPress conference in Europe. The next WCEU will be in Berlin, Germany on 20-22 June 2019",
-      "cocUrl": "https://2019.europe.wordcamp.org/code-of-conduct/"
-    },
-    {
-      "title": "DinosaurJS",
-      "date": "Thu Jun 20 2019 13:55:52 GMT+0000 (UTC)",
-      "endDate": "Fri Jun 21 2019 13:55:52 GMT+0000 (UTC)",
-      "url": "https://dinosaurjs.org/",
-      "location": "Denver, CO",
-      "byline": "A non-profit, community-driven JavaScript and Open Web conference",
-      "cocUrl": "https://jsconf.com/codeofconduct.html"
-    },
-    {
-      "title": "React Loop",
-      "date": "Fri Jun 21 2019 00:00:00 GMT+0000 (UTC)",
-      "endDate": "Fri Jun 21 2019 00:00:00 GMT+0000 (UTC)",
-      "url": "https://reactloop.com",
-      "location": "Chicago, IL",
-      "byline": "The First React Conference in Chicago",
-      "cocUrl": "https://reactloop.com/conduct"
-    },
-    {
       "title": "enterJS",
       "date": "Tue Jun 25 2019 00:00:00 GMT+0000 (UTC)",
       "endDate": "Fri Jun 28 2019 00:00:00 GMT+0000 (UTC)",
@@ -303,6 +231,24 @@
       "cocUrl": "http://nordicjs.com/code-of-conduct/"
     },
     {
+      "title": "Central Wisconsin IT Conference",
+      "date": "Sat Oct 12 2019 00:00:00 GMT+0000 (UTC)",
+      "endDate": "Sat Oct 12 2019 00:00:00 GMT+0000 (UTC)",
+      "url": "https://cwitc.org/",
+      "location": "Stevens Point, Wisconsin, USA",
+      "byline": "A one-day conference designed to bring together IT professionals from the Midwest.",
+      "cocUrl": "https://cwitc.org/code-of-conduct"
+    },
+    {
+      "title": "HighEdWeb Technical Academy",
+      "date": "Sat Oct 12 2019 00:00:00 GMT+0000 (UTC)",
+      "endDate": "Sun Oct 13 2019 00:00:00 GMT+0000 (UTC)",
+      "url": "https://technical.highedweb.org/",
+      "location": "Milwaukee, Wisconsin",
+      "byline": "Front-end technologies, best practices, and accessibility",
+      "cocUrl": "https://www.highedweb.org/about/code-of-conduct/"
+    },
+    {
       "title": "Smashing Conference",
       "date": "Tue Oct 15 2019 00:00:00 GMT+0000 (UTC)",
       "endDate": "Wed Oct 16 2019 00:00:00 GMT+0000 (UTC)",
@@ -328,6 +274,15 @@
       "location": "London, UK",
       "byline": "Conference brought to you by creators of React Amsterdam and FocusReactive experts.",
       "cocUrl": "https://confcodeofconduct.com/"
+    },
+    {
+      "title": "Script&#39;19",
+      "date": "Fri Oct 25 2019 00:00:00 GMT+0000 (UTC)",
+      "endDate": "Fri Oct 25 2019 00:00:00 GMT+0000 (UTC)",
+      "url": "https://scriptconf.org",
+      "location": "Linz, Austria",
+      "byline": "The feelgood JavaScript conference",
+      "cocUrl": "https://scriptconf.org/code-of-conduct"
     },
     {
       "title": "An Event Apart",
@@ -417,6 +372,15 @@
       "location": "San Francisco, California",
       "byline": "Three days of design, code, and content",
       "cocUrl": "https://aneventapart.com/registration-information#code-of-conduct"
+    },
+    {
+      "title": "React Finland",
+      "date": "Tue May 12 2020 00:00:00 GMT+0000 (UTC)",
+      "endDate": "Fri May 15 2020 00:00:00 GMT+0000 (UTC)",
+      "url": "https://react-finland.fi",
+      "location": "Helsinki, Finland",
+      "byline": "Learn More about React, Explore Finland.",
+      "cocUrl": "http://berlincodeofconduct.org"
     }
   ]
 }

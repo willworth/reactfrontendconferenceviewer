@@ -30,7 +30,7 @@ h3 {
 @media screen and (min-width: 1199px) {
   .Listing {
     font-size: 1.4em;
-    padding: 7px;
+    padding: 5px;
     transition: 0.4s;
   }
 }
