@@ -24,7 +24,7 @@ h3 {
   box-shadow: inset 0 0 0 0.2em gold;
 }
 .Shortlisted {
-  background-color: black;
+  background-color: rgb(53, 173, 42);
 }
 
 @media screen and (min-width: 1199px) {
